@@ -139,3 +139,9 @@ git本地操作
      3)冲突，git add 
 
      ​              git commit       （不带文件名）
+
+9. 本地库链接远程库
+
+   - git remote -v          查看远程地址
+   - git remote add origin 地址                origin即代表这个地址
+   - git push origin master                   master    分支名，然后输入用户名及密码。
