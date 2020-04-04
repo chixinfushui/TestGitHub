@@ -145,3 +145,22 @@ git本地操作
    - git remote -v          查看远程地址
    - git remote add origin 地址                origin即代表这个地址
    - git push origin master                   master    分支名，然后输入用户名及密码。
+
+10. 项目添加成员
+
+   - 项目  -> settings   ->    collaborators
+
+     输入目标账号   ->   add collaborators
+
+11. fech + merge = pull
+
+    - git fetch origin master
+    - git checkout origin/master
+    - git checkout master
+    - git merge origin/master
+
+    =     git pull origin master
+
+12. SSH登录   <https://www.bilibili.com/video/BV1pW411A7a5?p=42>               
+
+    P42
