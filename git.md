@@ -10,3 +10,9 @@
 
 在文件内初始化仓库：
 >git init
+
+git 克隆
+>git clone 仓库地址
+
+本地仓库同步到远程仓库
+>git push
