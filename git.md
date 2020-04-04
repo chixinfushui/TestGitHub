@@ -11,8 +11,17 @@
 在文件内初始化仓库：
 >git init
 
+git提交本地仓库
+>git add filename
+>git commit -m 'something'
+
 git 克隆
 >git clone 仓库地址
 
 本地仓库同步到远程仓库
 >git push
+
+
+提交出错，配置./git/config
+url = https://用户名:密码@github.
+
