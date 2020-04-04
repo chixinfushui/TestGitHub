@@ -104,4 +104,38 @@ git本地操作
 
    - 只能往后退
 
-   ​	git reset --hard HEAD~3   往后退3个版本
+     ​git reset --hard HEAD~3   往后退3个版本
+
+6. git help reset 
+
+   查看帮助文档
+
+   --soft   仅仅在本地库移动 HEAD 指针
+
+   --mixed     在本地库移动 HEAD指针， 重置暂存去
+
+   --hard    在本地库移动HEAD指针，重置暂存区，重置工作区
+
+7. 文件差异
+
+   git diff a.txt       工作区与暂存区比较
+
+   git diff HEAD^ a.txt     与上一个版本比较
+
+8. 分支
+
+   git branch -v        分支情况
+
+   - 创建分支      git branch hot_fix
+
+   - 分支切换      git checkout  hot_fix                  hot_fix   为分支名
+
+   - 合并分支      
+
+     1）首先要站在接收修改的分支上，例如主分支（增加新内容）
+
+     2）执行merge           git merge hot_fix
+
+     3)冲突，git add 
+
+     ​              git commit       （不带文件名）
