@@ -1,3 +1,0 @@
-new a file
-line 2
-add some thing commit 2
